@@ -1,0 +1,100 @@
+/* font-family: "Raleway", sans-serif; */
+
+body {
+	font-family: "Raleway", sans-serif;
+	width: 60%;
+	margin: 80px auto;
+}
+
+/* TOPPER SECTION */
+.topper {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 80px;
+}
+
+.topper .logo {
+	width: 80%;
+	margin: 0 auto 50px auto;
+	display: block;
+}
+
+.topper .kitchen-intro {
+	text-align: center;
+	text-transform: uppercase;
+	color: #807a79;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.topper h2,
+.topper .event-house-desc {
+	color: #93b5af;
+	text-align: center;
+}
+
+.topper h2 {
+	border-top: 2px dotted #807a79;
+	border-bottom: 2px dotted #807a79;
+	text-transform: uppercase;
+	padding: 15px;
+	width: 80%;
+	display: block;
+	margin: auto;
+	letter-spacing: 2px;
+}
+
+/* MENU ITEMS */
+h3 {
+	text-transform: uppercase;
+	color: #ab3232;
+	border-bottom: 2px dotted #807a79;
+	letter-spacing: 2px;
+	width: 40%;
+	padding-bottom: 7px;
+	margin-top: 50px;
+}
+
+.special {
+	background-color: #ddecea;
+	border: 2px dotted #807a79;
+	padding: 0 12px;
+}
+
+.price {
+	font-style: italic;
+}
+
+.item-option {
+	font-style: italic;
+	color: #807a79;
+}
+
+h6 {
+	color: #ab3232;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+ul {
+	list-style-type: square;
+}
+
+/* FOOTER */
+.footer img {
+	float: right;
+	padding-left: 25px;
+}
+.footer p {
+	color: #93b5af;
+}
+
+.footer p.black-bold {
+	font-weight: bold;
+	color: black;
+}
+
+.footer a {
+	color: #ab3232;
+}
