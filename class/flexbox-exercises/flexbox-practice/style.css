@@ -1,0 +1,48 @@
+.flex-container {
+	display: flex;
+	min-height: 300px;
+	width: 100%;
+	margin-bottom: 30px;
+	gap: 30px;
+}
+
+/* .flex-container div {
+	border: 1px solid black;
+} */
+
+.light-pink div {
+	background-color: #f5c6d6;
+	flex-grow: 1;
+}
+
+.dark-pink div {
+	background-color: #ee2e84;
+	flex-grow: 1;
+}
+
+.blue div {
+	background-color: #85cfd8;
+	flex-grow: 1;
+}
+
+.green {
+	background-color: #8d3;
+	flex-grow: 3;
+}
+
+.orange {
+	background-color: coral;
+	flex-grow: 1;
+}
+
+@media only screen and (max-width: 767px) {
+	.flex-container {
+		display: block;
+		min-height: auto;
+	}
+
+	.flex-container div {
+		min-height: 150px;
+		margin-bottom: 30px;
+	}
+}
